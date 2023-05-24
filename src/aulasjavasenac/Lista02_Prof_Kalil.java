@@ -1,7 +1,7 @@
 package aulasjavasenac;
 
 /*
-Versão dos exercícios da lista 02 do Professor Kalil - Por Jose Tavares, 23 de maio de 2023
+Versão dos exercícios da lista 02 do Professor Kalil - Por Jose Tavares Equipe Tristando, 23 de maio de 2023
 https://github.com/joseumtavares
 */
 
