@@ -126,13 +126,14 @@ public class ListaProfMartaAtividadeTeams {
         while (true) {
             System.out.println("Os Códigos começam do 1 e vão até 9998,");
             System.out.println("se quiser sair do programa digite 9999:");
+            System.out.print("Insira O Código do Funcionario Para Continuar:");
 
             codigo = scanner.nextInt();
-
+            
             if (codigo == 9999) {
                 break;
             }
-
+            
             System.out.print("Nome: ");
             scanner.nextLine(); // Limpar o buffer do teclado
             nome = scanner.nextLine();
@@ -149,11 +150,13 @@ public class ListaProfMartaAtividadeTeams {
             salarioBruto = horasTrabalhadas * valorHora;
 
             switch (sexo) {
+            	case 'm':
                 case 'M':
                     salarioLiquido = salarioBruto - (salarioBruto * 0.10);
                     totalSalarioHomens += salarioLiquido;
                     numHomens++;
                     break;
+                case 'f':
                 case 'F':
                     salarioLiquido = salarioBruto - (salarioBruto * 0.05);
                     totalSalarioMulheres += salarioLiquido;
