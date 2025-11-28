@@ -1,5 +1,5 @@
 # JovemProgramadorSenac
-Curso de Programação em Javada e Administração de Banco de Dados
+Curso de Programação em Java e Administração de Banco de Dados
 
 #Jovem Programador 2023 - SENAC Araranguá
 
